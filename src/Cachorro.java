@@ -5,8 +5,9 @@ public class Cachorro extends Animal{
 
     private String raca = new String();
 
-    public Cachorro(String nome, float peso, int numPatas) {
+    public Cachorro(String nome, float peso, int numPatas, String raca) {
         super(nome, peso, numPatas);
+        this.raca = raca;
     }
 
     public String getRaca() {
